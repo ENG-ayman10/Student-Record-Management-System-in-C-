@@ -1,0 +1,34 @@
+﻿  the fainal project.cpp
+E:\the fainal project\the fainal project\the fainal project.h(3,6): error C2182: 'loadFromfile': illegal use of type 'void'
+E:\the fainal project\the fainal project\the fainal project.h(3,19): error C2065: 'student': undeclared identifier
+E:\the fainal project\the fainal project\the fainal project.h(3,27): error C2146: syntax error: missing ')' before identifier 'sturdents'
+E:\the fainal project\the fainal project\the fainal project.cpp(108,38): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\istream(69,39): message : could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator =(const std::basic_istream<char,std::char_traits<char>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\istream(57,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator =(std::basic_istream<char,std::char_traits<char>> &&)'
+E:\the fainal project\the fainal project\the fainal project.cpp(108,38): message : while trying to match the argument list '(std::basic_istream<char,std::char_traits<char>>, int)'
+E:\the fainal project\the fainal project\the fainal project.cpp(115,31): error C2065: 'i': undeclared identifier
+E:\the fainal project\the fainal project\the fainal project.cpp(116,55): error C2065: 'i': undeclared identifier
+E:\the fainal project\the fainal project\the fainal project.cpp(148,15): error C2280: 'student &student::operator =(const student &)': attempting to reference a deleted function
+E:\the fainal project\the fainal project\the fainal project.cpp(27): message : compiler has generated 'student::operator =' here
+E:\the fainal project\the fainal project\the fainal project.cpp(27,1): message : 'student &student::operator =(const student &)': function was implicitly deleted because 'student' has a data member 'student::size' of const-qualified non-class type
+E:\the fainal project\the fainal project\the fainal project.cpp(23): message : see declaration of 'student::size'
+E:\the fainal project\the fainal project\the fainal project.cpp(161,17): error C2676: binary '[': 'const student' does not define this operator or a conversion to a type acceptable to the predefined operator
+E:\the fainal project\the fainal project\the fainal project.cpp(172,41): error C2676: binary '[': 'const student' does not define this operator or a conversion to a type acceptable to the predefined operator
+E:\the fainal project\the fainal project\the fainal project.cpp(172,25): error C2530: 'student': references must be initialized
+E:\the fainal project\the fainal project\the fainal project.cpp(249,6): error C2365: 'loadFromfile': redefinition; previous definition was 'data variable'
+E:\the fainal project\the fainal project\the fainal project.h(3): message : see declaration of 'loadFromfile'
+E:\the fainal project\the fainal project\the fainal project.cpp(281,18): error C2039: 'line': is not a member of 'std::basic_ifstream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\iosfwd(228): message : see declaration of 'std::basic_ifstream<char,std::char_traits<char>>'
+E:\the fainal project\the fainal project\the fainal project.cpp(281,5): error C2672: 'std::getline': no matching overloaded function found
+E:\the fainal project\the fainal project\the fainal project.cpp(281,22): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': expects 2 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\string(81): message : see declaration of 'std::getline'
+E:\the fainal project\the fainal project\the fainal project.cpp(281,22): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\string(75): message : see declaration of 'std::getline'
+E:\the fainal project\the fainal project\the fainal project.cpp(281,22): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': expects 2 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\string(69): message : see declaration of 'std::getline'
+E:\the fainal project\the fainal project\the fainal project.cpp(281,22): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\string(26): message : see declaration of 'std::getline'
+E:\the fainal project\the fainal project\the fainal project.cpp(330,30): error C2664: 'void searchByID(const student,int)': cannot convert argument 1 from 'student [100]' to 'const student'
+E:\the fainal project\the fainal project\the fainal project.cpp(330,30): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+E:\the fainal project\the fainal project\the fainal project.cpp(153,6): message : see declaration of 'searchByID'
+E:\the fainal project\the fainal project\the fainal project.cpp(339,4): error C2064: term does not evaluate to a function taking 2 arguments
